@@ -1,0 +1,40 @@
+import cmath
+
+num1 = int(input("age : "))
+age = num1
+
+
+if age < 18:
+
+    print("you are not adult")
+
+if age > 18:
+   
+ print("you are a adult")
+
+if age == 18:
+
+    print("you are a adult")
+
+if age < 6:
+
+    print("you are too small to run this programe")
+
+if age < 0:
+
+    print("you are not born yet")
+elif age == 0:
+    print("betee ande mai toh nikal jaah")
+
+if age > 100:
+
+    print("you hitted the century")
+
+    print("you are too old")
+
+if age > 200:
+    print("betee mojj kardee")
+
+if age == 100:
+
+    print("you hitted the century")
